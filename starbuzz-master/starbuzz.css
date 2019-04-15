@@ -15,14 +15,14 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 330px 10px 10px;
+  vertical-align: top;
 }
 
 #sidebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  vertical-align: top;
   width: 280px;
   float: right;
 
@@ -33,7 +33,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin:           0px 10px 10px 10px;
   font-size:        90%;
   clear: right;
 }
@@ -68,4 +68,20 @@ a:visited {
   background-color: #675c47;
   margin-left: auto;
   margin-right:auto;
+}
+
+#tableContainer{
+  display:table;
+  border-spacing:10px;
+}
+#tableRow{
+  display:table-row;
+}
+
+#drinks{
+  float:left;
+  background-color:#efe5d0;
+  width:180px;
+  padding:15px;
+  vertical-align: top;
 }
